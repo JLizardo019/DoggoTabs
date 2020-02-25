@@ -1,0 +1,27 @@
+{
+
+"manifest_version": 2,
+"name": "Doggo Tabs",
+"version": "1.0",
+"description": "Redirects your new tabs to a website with dog images",
+
+"permissions": [
+  "tabs",
+  "activeTab"
+],
+
+"browser_action": {
+    "default_title": "Doggo Tabs",
+    "icons": ["icon.png"],
+    "default_icon": "icon.png"
+},
+
+
+"background":{
+  "scripts":["background.js"],
+  "persistent": false
+
+}
+
+
+}
